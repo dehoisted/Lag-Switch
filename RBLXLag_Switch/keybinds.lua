@@ -1,4 +1,14 @@
 -- keybinds.lua
+print("** Keybinds **")
+binds_num = 4
+keybinds =  
+{"Rejoin", "Rejoins the current lobby you are in",
+"Server Hop", "Joins a random local server"} 
+              
+for i = 1, binds_num do
+    print(keybinds[i])
+end
+
 game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(key)
     if (key=="p") then
       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
