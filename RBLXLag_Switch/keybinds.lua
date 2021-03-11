@@ -1,4 +1,4 @@
--- keybinds.lua
+-- keybinds.lua: keybind functions stored here
 print("** Keybinds **")
 binds_num = 4
 keybinds =  
