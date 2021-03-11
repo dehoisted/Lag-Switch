@@ -1,3 +1,5 @@
+-- main.lua
+-- the full script
 local keybinds = 
                   {["Rejoin"] = "Rejoins the game",
                   ["Server Hop"] = "Teleports to random local server"}
