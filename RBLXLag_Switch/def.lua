@@ -1,4 +1,4 @@
--- def.lua
+-- def.lua: important global definitions
 
 discord1 = "orlando#1337"
 discord2 = "SS Daplyy#6293"
