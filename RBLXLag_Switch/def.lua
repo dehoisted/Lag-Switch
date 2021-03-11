@@ -5,3 +5,8 @@ discord2 = "SS Daplyy#6293"
 discord_server = "https://discord.gg/zvXzRD8ugC"
 
 -- Pastebin links down here
+link1 = ""
+link2 = ""
+link3 = ""
+link4 = ""
+link5 = ""
