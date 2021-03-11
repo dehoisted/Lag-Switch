@@ -1,3 +1,4 @@
+-- check.lua
 if NA_LOADED and not _G.NA_DEBUG == true then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "ERROR";
