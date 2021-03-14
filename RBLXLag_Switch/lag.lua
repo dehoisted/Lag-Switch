@@ -1,4 +1,4 @@
--- lag.lua: code for lagging player
+-- lag.lua: lagging player
 TextButton.MouseButton1Click:Connect(function()
     if run then
         run = false
