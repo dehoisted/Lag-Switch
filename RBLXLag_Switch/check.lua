@@ -1,4 +1,4 @@
--- check.lua: code for checking user before anything else
+-- check player before anything
 if NA_LOADED and not _G.NA_DEBUG == true then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "ERROR";
