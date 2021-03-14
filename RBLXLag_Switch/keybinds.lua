@@ -12,8 +12,6 @@ end
 game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(key)
     if (key=="p") then
       game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
-      gcinfo()
-      collectgarbage("count")
     end
 end)
 
@@ -28,7 +26,7 @@ game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(key)
 		if #x > 0 then
 			game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, x[math.random(1, #x)])
 		else
-			return notify("Serverhop","Couldn't find a server.")
+		return print("Serverhop","Couldn't find a server.")
 		end
 	end
 end)
