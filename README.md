@@ -1,2 +1,2 @@
 # Lag-Switch
-Lag Switch -- Roblox Lua and C#
+Lag Switch -- Luau
