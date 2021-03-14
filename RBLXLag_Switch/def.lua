@@ -10,3 +10,8 @@ Vice Versa
 --]]
 
 args = 15
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Info";
+        Text = "Check your dev console for information (F9)";
+      })
