@@ -1,2 +1,2 @@
 # Lag-Switch
-Lag Switch -- Luau
+Luau GUI - Executed with Synapse X
