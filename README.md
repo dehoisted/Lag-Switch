@@ -1,2 +1,3 @@
 # Lag-Switch
-Luau GUI - Executed with Synapse X
+Luau GUI - Works in most roblox games                                                                                                                                     
+Executed with Synapse X
